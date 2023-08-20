@@ -15,7 +15,6 @@ jobs:
       with:
         java-version: '17'
         distribution: 'corretto'
-        cache: maven
 
     - name: Checkout project
       uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9
